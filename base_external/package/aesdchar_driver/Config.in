@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AESDCHAR_DRIVER
+	bool "aesdchar_driver"
+	help
+	  Includes aesdchar character device driver in the kernel image.
+	  Used to understand buildroot external trees and package builds.

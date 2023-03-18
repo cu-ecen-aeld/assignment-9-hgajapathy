@@ -1,15 +1,9 @@
-
 ##############################################################
 #
 # AESD-ASSIGNMENTS
 #
 ##############################################################
-
-#TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = '008222f74d3b21c4fce5602619a3872ca20b1aa3'
-# Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
-# with ssh keys and the automated build/test system.
-# Your site should start with git@github.com:
+AESD_ASSIGNMENTS_VERSION = 'f170516efd872c7f5aa47b5bfc3f22e64a8232fc'
 AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-hgajapathy.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES

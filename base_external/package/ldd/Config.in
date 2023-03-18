@@ -1,5 +1,5 @@
 config BR2_PACKAGE_LDD
 	bool "ldd"
 	help
-	  Linux Device Driver example modules.
+	  Includes scull and misc-modules device driver in the kernel image.
 	  Used to understand buildroot external trees and package builds.
