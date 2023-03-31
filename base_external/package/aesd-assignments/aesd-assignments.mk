@@ -3,10 +3,15 @@
 # AESD-ASSIGNMENTS
 #
 ##############################################################
-AESD_ASSIGNMENTS_VERSION = 'f170516efd872c7f5aa47b5bfc3f22e64a8232fc'
+AESD_ASSIGNMENTS_VERSION = '176ac66ac4f1b875cde259333b92a29df3a9d269'
 AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-hgajapathy.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
+
+# for local build
+# AESD_ASSIGNMENTS_SITE = '/home/haga9942/assignments-3-and-later'
+# AESD_ASSIGNMENTS_SITE_METHOD = local
+# AESD_ASSIGNMENTS_MODULE_SUBDIRS = server
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server all
